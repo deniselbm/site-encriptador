@@ -1,6 +1,7 @@
 const textArea = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
 
+
 // As "chaves" de criptografia que utilizaremos são:
 // A letra "e" é convertida para "enter"
 // A letra "i" é convertida para "imes"
@@ -48,3 +49,5 @@ function desencriptar(stringDesencriptada) {
     }
     return stringDesencriptada;
 }
+
+
